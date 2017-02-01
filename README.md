@@ -1,6 +1,6 @@
 # django + mysql local development using docker
 
-The objective is very simple:
+The objectives:
 
 - start a local dev environment of django
 - docker volumes are mounted to local folders so all changes take effect immediately
@@ -36,7 +36,9 @@ Development code in django/ folder
 
 ### MySQL
 
-Connect to the MySQL through 127.0.0.1:3307
+Connect to the MySQL through 127.0.0.1:3307  
+username: root  
+password: password
 
 The data are stored in docker/dev/volumes/db
 
