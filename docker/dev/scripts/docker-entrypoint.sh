@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Activing python env
-virtualenv -p /usr/bin/python2.7 /srv/django/venv
+virtualenv -p /usr/local/bin/python2.7 /srv/django/venv
 source /srv/django/venv/bin/activate
 
 echo Installing Python dependencies
