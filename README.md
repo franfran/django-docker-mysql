@@ -32,7 +32,10 @@ $ docker-compose -f docker/dev/docker-compose.yml up
 
 ### Django
 
-Development code in django/ folder
+Browse your site in
+http://127.0.0.1:8000/
+
+Start development code in django/ folder
 
 ### MySQL
 
